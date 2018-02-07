@@ -157,7 +157,7 @@ nav a:hover {
     background-image: url('../img/chess.jpg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -407,6 +407,12 @@ footer a:hover {
 }
 
 /* Media Queries */
+
+@media (min-width: 1440px) {
+    .hero {
+        background-attachment: fixed;
+    }
+}
 
 @media (max-width: 920px) {
     .izquierda, .centro, .derecha {
